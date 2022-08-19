@@ -1,0 +1,66 @@
+.browser-history-items-container {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 2px 4px;
+  width: 70%;
+}
+
+.item-card-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.time-accessed {
+  color: #64748b;
+  font-size: 25px;
+  font-family: 'Roboto';
+  margin-right: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.logo-title {
+  color: #475569;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin: 10px;
+}
+
+.logo-url {
+  color: #64748b;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin: 10px;
+}
+
+.delete-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.delete-button {
+  background-color: transparent;
+  padding: 20px;
+  margin: 20px;
+}
+
+.delete-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.empty-list {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+}
